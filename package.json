@@ -2,7 +2,7 @@
   "name": "create-shadcn-dashboard",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
