@@ -39,11 +39,11 @@ npm run dev
 
 <summary>Photo Gallery (Click to expand)</summary>
 
-| Image | Description |
-|-------|-------------|
-| ![Login screen](https://i.imgur.com/LmWPw2X.png) | Login screen (Dark mode) |
-| ![Dashboard](https://i.imgur.com/H4ew17E.png) | Dashboard (Dark mode) |
-| ![LS Light](https://i.imgur.com/igs90sk.png) | Login screen (Light mode) |
-| ![DB Light](https://i.imgur.com/5lYNvCZ.png) | Dashboard (Light mode) |
+| Description | Image |
+|-------------|-------|
+| Login screen (Dark mode) | ![Login screen](https://i.imgur.com/LmWPw2X.png) |
+| Dashboard (Dark mode) | ![Dashboard](https://i.imgur.com/H4ew17E.png) |
+| Login screen (Light mode) | ![LS Light](https://i.imgur.com/igs90sk.png) |
+| Dashboard (Light mode) | ![DB Light](https://i.imgur.com/5lYNvCZ.png) |
 
 </details>
