@@ -4,7 +4,7 @@ import chalk from "chalk";
 import { installDependencies } from "../utils/npm.js";
 import { copyTemplateFiles } from "../utils/file.js";
 import crypto from 'crypto';
-import { initGit } from "../utils/git.js";
+import { initRepo } from "../utils/git.js";
 
 export async function createApp(name) {
   if(!name) {
@@ -45,7 +45,7 @@ export async function createApp(name) {
   await installDependencies(targetDir);
 
   // Initialise git
-  await initGit(targetDir);
+  await initRepo(targetDir);
 
   console.log(chalk.green(`Successfully created ${name}!`));
   console.log(chalk.yellow("To get started, run:"));

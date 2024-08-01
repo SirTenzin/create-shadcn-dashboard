@@ -19,7 +19,7 @@ async function initGit(targetDir) {
     await execAsync(`git init`, { cwd: targetDir });
 }
 
-export async function initGit(targetDir) {
+export async function initRepo(targetDir) {
     const detectSpin = ora("Detecting git...").start();
     if(checkGit()) {
         detectSpin.succeed("Git detected");
