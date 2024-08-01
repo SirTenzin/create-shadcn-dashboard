@@ -17,7 +17,7 @@ A CLI tool to quickly set up a Next.js dashboard with Shadcn UI components and a
 
 To create a new dashboard project, run:
 
-<img src="https://i.imgur.com/cQhVyaH.png" alt="Initial" width="800"/>
+<img src="https://i.imgur.com/Sow6suo.png" alt="Initial" width="800"/>
 
 To add a new page, run:
 
