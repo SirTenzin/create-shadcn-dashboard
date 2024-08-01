@@ -3,6 +3,7 @@ import util from "util";
 import fs from "fs/promises";
 import path from "path";
 import ora from "ora";
+import Logger from "./logger.js";
 
 const execAsync = util.promisify(exec);
 
@@ -19,6 +20,8 @@ async function initGit(targetDir) {
     await execAsync(`git init`, { cwd: targetDir });
 }
 
+let log = new Logger();
+
 export async function initRepo(targetDir) {
     const detectSpin = ora("Detecting git...").start();
     if(checkGit()) {
@@ -26,9 +29,9 @@ export async function initRepo(targetDir) {
         const initSpin = ora("Initialising git repository...").start();
         await initGit(targetDir);
         initSpin.succeed("Git initialised");
-        return logger.success("Git repository initialised");
+        return log.success("Git repository initialised");
     } else {
         detectSpin.fail("Git not detected");
-        return logger.warn("Git not detected, repository not initialised");
+        return log.warn("Git not detected, repository not initialised");
     }
 }
