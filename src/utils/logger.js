@@ -17,6 +17,10 @@ export default class Logger {
     return this.logger.log(chalk.red(message));
   }
 
+  warn(message) {
+    return this.logger.log(chalk.yellow(message));
+  }
+
   fatal(message) {
     return this.logger.log(chalk.bgRed(message));
   }
