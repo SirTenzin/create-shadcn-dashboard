@@ -45,3 +45,14 @@ To add a new API route, run:
 | Dashboard (Light mode) | ![DB Light](https://i.imgur.com/5lYNvCZ.png) |
 
 </details>
+
+## Notes
+
+<details>
+
+<summary>Notes (Click to expand)</summary>
+
+- When starting your dashboard, you may find that the auth system lets you login with any set of emails or passwords, and that is because by default the auth.config.ts file doesnt check for anything.
+- You can add your own providers to the auth.config.ts file and that will be used to check for valid logins.
+
+</details>
