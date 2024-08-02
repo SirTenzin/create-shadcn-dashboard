@@ -2,7 +2,7 @@
   "name": "create-shadcn-dashboard",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
@@ -12,5 +12,17 @@
   },
   "bin": {
     "create-shadcn-dashboard": "./src/index.js"
-  }
+  },
+  "keywords": [
+    "shadcn",
+    "dashboard",
+    "create",
+    "shadcn-dashboard",
+    "shadcn-dashboard-create",
+    "create-shadcn-dashboard",
+    "nextjs",
+    "next-auth",
+    "zod",
+    "zustand"
+  ]
 }
