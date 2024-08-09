@@ -15,20 +15,36 @@ A CLI tool to quickly set up a Next.js dashboard with Shadcn UI components and a
 
 ## Getting Started
 
-To create a new dashboard project, run:
+> To create a new dashboard project, run:
+
+```bash
+npx create-shadcn-dashboard my-app
+```
 
 <img src="https://i.imgur.com/Sow6suo.png" alt="Initial" width="800"/>
 
-To add a new page, run:
+> To add a new page, run:
 
+ ```bash
+npx create-shadcn-dashboard my-app
+
+```
 <img src="https://i.imgur.com/sAAAIbY.png" alt="Add Page" width="800"/>
 
-To add a new API route, run:
+> To add a new API route, run:
+
+```bash
+npx create-shadcn-dashboard add route 
+```
 
 <img src="https://i.imgur.com/M0t2bDn.png" alt="Add Route" width="800"/>
 
 ## Running your app
 
+```bash
+cd ../my-app
+npm run dev
+```
 <img src="https://i.imgur.com/iex0o8J.png" alt="Running your app" width="800"/> 
 
 ## Photo gallery
