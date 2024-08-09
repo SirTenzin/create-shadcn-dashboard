@@ -42,7 +42,7 @@ npx create-shadcn-dashboard add route
 ## Running your app
 
 ```bash
-cd ../my-app
+cd my-app
 npm run dev
 ```
 <img src="https://i.imgur.com/iex0o8J.png" alt="Running your app" width="800"/> 
